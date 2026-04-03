@@ -5,6 +5,8 @@ import AboutUs from "../Pages/About/AboutUs.jsx";
 import Contact from "../Pages/Contact/Contact.jsx";
 import ScanSolve from "../Pages/ScanSolve/ScanSolve.jsx";
 import AboutStudent from "../Pages/Account/account.jsx";
+import Login from "../Pages/Auth/Login/Login.jsx";
+import Signup from "../Pages/Auth/Signup/Signup.jsx";  
 
 export default function Approutes() {
     return (
@@ -18,6 +20,8 @@ export default function Approutes() {
                 <Route path = "/Contact" element={<Contact/>}/>
                 <Route path = "/ScanSolve" element={<ScanSolve/>}/>
                 <Route path = "/About_Student" element={<AboutStudent/>}/>
+                <Route path = "/Login" element={<Login/>}/>
+                <Route path = "/Signup" element={<Signup/>}/>
 
             </Routes>
         </BrowserRouter>

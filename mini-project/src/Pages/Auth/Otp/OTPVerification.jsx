@@ -29,7 +29,7 @@ export default function OTPVerification({ email, goBack, goToLogin }) {
           className="w-full text-center tracking-widest px-4 py-3 rounded-lg bg-white/20 focus:outline-none focus:ring-2 focus:ring-pink-400"
         />
 
-        <button className="w-full py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 hover:scale-105 transition">
+        <button className="w-full py-3 rounded-lg bg-linear-to-r from-pink-500 to-purple-500 hover:scale-105 transition">
           Verify OTP
         </button>
 
